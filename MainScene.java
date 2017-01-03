@@ -20,13 +20,8 @@ public class MainScene {
         this.window = window;
         init();
     }
-<<<<<<< HEAD
     
-	public void init(){
-=======
-
     public void init(){
->>>>>>> 4c6ca33d694ec30baa326b1467007d55b1ca6b8d
         Label title = new Label("High Roller");
         Button newGame = new Button("New Game");
         Button exitGame = new Button("Exit");
@@ -36,14 +31,11 @@ public class MainScene {
         title.setAlignment(Pos.CENTER);
 
         newGame.setEffect(new DropShadow());
-<<<<<<< HEAD
         newGame.setPrefSize(600, 100);
         newGame.setStyle("-fx-font-size: 40px; -fx-base: #b3ffff; -fx-font-weight: bold;");
-=======
         newGame.setPrefSize(300, 100);
         newGame.setStyle("-fx-font-size: 40px; -fx-base: #b3ffff; -fx-font-weight: bold;");
         newGame.setMaxWidth(600);
->>>>>>> 4c6ca33d694ec30baa326b1467007d55b1ca6b8d
         newGame.setAlignment(Pos.CENTER);
         newGame.setPadding(new Insets(10, 50, 10, 50));
         newGame.paddingProperty();
@@ -55,11 +47,9 @@ public class MainScene {
         exitGame.setMaxWidth(600);
         exitGame.setAlignment(Pos.CENTER);
         exitGame.setPadding(new Insets(10, 100, 10, 100));
-<<<<<<< HEAD
+
         exitGame.setOnAction(e -> closeGame());
-=======
         exitGame.setOnAction(e -> System.exit(0));
->>>>>>> 4c6ca33d694ec30baa326b1467007d55b1ca6b8d
 
         VBox layout = new VBox(20);
         layout.setAlignment(Pos.CENTER);
@@ -70,7 +60,7 @@ public class MainScene {
     }
 
     public void newGame(){
-<<<<<<< HEAD
+
         gameScene = new GameScene(window);
         window.setScene(gameScene.game);
     }
@@ -78,11 +68,7 @@ public class MainScene {
     public void closeGame(){
     	System.exit(0);
     }
-=======
-        gameScene = new GameScene();
-        window.setScene(gameScene.game);
-    }
->>>>>>> 4c6ca33d694ec30baa326b1467007d55b1ca6b8d
+
 
 
 
