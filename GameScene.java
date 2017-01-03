@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -7,10 +8,17 @@ import javafx.stage.Stage;
 
 /**
  * Created by Lee Laffan on 03/01/2017.
+=======
+import javafx.scene.Scene;
+
+/**
+ * Created by u170440 on 03/01/2017.
+>>>>>>> 4c6ca33d694ec30baa326b1467007d55b1ca6b8d
  */
 public class GameScene {
 
     public Scene game;
+<<<<<<< HEAD
     public Stage window;
     public int playerNumber = 1;
 	public static int triesLeft = 20;
@@ -43,6 +51,13 @@ public class GameScene {
     	game = new Scene(layout, HighRoller.WIDTH, HighRoller.HEIGHT);
     	
     	
+=======
+
+    public GameScene(){
+
+        System.out.println("Working");
+
+>>>>>>> 4c6ca33d694ec30baa326b1467007d55b1ca6b8d
     }
 
 
